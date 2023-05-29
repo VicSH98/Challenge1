@@ -65,7 +65,7 @@ textarea{
     padding-top: 90%;
 }
 .fondo{
-    background-image: url(../Challenge1/imagen/muneco.png);
+    background-image: url(imagen/muneco.PNG);
     background-size: 90%;
     background-repeat: no-repeat;
 }
