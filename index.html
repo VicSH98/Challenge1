@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="es"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"> 
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css/reset.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+        <script src="/app.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1><img src="/imagen/Logo.png"></h1>
+            <p>¡Bienvenido al encriptador de Alura!</p>
+        </header>
+        <main class="contenido">
+            <div class="ingreso">
+                <label for="texto" class="texto">Ingrese el mensaje secreto aquí:</label>
+                <textarea class="entrada" cols="90" rows="20" id="texto" required placeholder="(Sólo letras minúsculas y sin acentos)"></textarea>
+            </div>
+            <div class="salida">
+                <label for="resultado" class="resultado">El mensaje es: </label>
+                <textarea cols="40" rows="20" id="resultado" class="fondo" required readonly placeholder="Ningún mensaje fue encontrado"></textarea>
+            </div>
+            <div class="botones">
+                <input type="button" value="Encriptar" class="encriptar" onclick="botonEncriptar()">
+                <input type="button" value="Desencriptar" class="desencriptar" onclick="botonDesencriptar()">
+            </div>
+                <input type="submit" value="Copiar" class="copiar" onclick="botonCopiar()">
+        </main>
+        <footer>
+            <p class="creditos">Elaborado por Victoria Sánchez, 2023</p>
+        </footer>
+    </body>
